@@ -1,4 +1,4 @@
-import Vijay from '../assets/vijay.png';
+import Vijay from '../assets/Vijay.png';
 
 const About=()=>{
     return(
