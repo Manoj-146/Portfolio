@@ -1,4 +1,4 @@
-import Vijay from '../assets/Vijay.png';
+import Manoj from '../assets/Manoj.jpeg';
 import { AiOutlineLinkedin, AiOutlineInstagram, AiOutlineGithub } from "react-icons/ai";
 
 
@@ -22,7 +22,7 @@ const MainSection=()=>{
                     </a>
                 </div>
             </div>
-            <img src={Vijay}  className='w-100 md:w-1/3' alt="vijay image" />
+            <img src={Manoj}  className='w-100 md:w-1/3 rounded-full shadow-amber-600' alt="vijay image" />
         </div>
     );
 }

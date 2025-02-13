@@ -1,4 +1,3 @@
-import Vijay from '../assets/Vijay.png';
 import Manoj from '../assets/Manoj.jpeg';
 
 const About=()=>{
