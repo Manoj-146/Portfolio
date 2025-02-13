@@ -2,7 +2,7 @@ import ecom from '../assets/Ecommerce.png';
 
 function Project(){
     return(
-        <div id="Project" className=" flex flex-col bg-gray-400 justify-around ">
+        <div id="Project" className=" flex flex-col justify-around ">
             <div className="text-center">
                 <p className=' text-neutral-950 font-bold text-4xl py-5'>Projects</p>
                 <h1 className='text-2xl font-medium text-neutral-900 ' >These are the projects that I have did using my tech skills</h1>

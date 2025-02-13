@@ -2,7 +2,7 @@ import Resume_img from '../assets/Resume_img.jpg';
 
 const Resume=()=>{
     return(
-        <div id='Resume' className="py-10 flex flex-col md:flex-row items-center justify-around p-2 bg-gray-700 text-white">
+        <div id='Resume' className="py-10 flex flex-col md:flex-row items-center justify-around p-2 bg-[#808080] ">
             <div className=' md:block w-1/4 p-4'>
                 <img src={Resume_img} alt="" />
             </div>
@@ -12,7 +12,7 @@ const Resume=()=>{
                     You can download my resume from here 
                 </p>
                 <div className='flex justify-center pt-5'>
-                    <button className='w-[150px] h-10  bg-indigo-500 rounded-lg  hover:border-2 border-indigo-700 '><a className='w-full h-full' href="https://drive.google.com/file/d/1Nvm7HZlpO3lZ7uu5IT5RscxG5b5DJgma/view?usp=sharing">Download</a></button>
+                    <button className='w-[150px] h-10  bg-indigo-500 rounded-lg  hover:border-2 border-indigo-700 '><a className='w-full h-full text-white' href="https://drive.google.com/file/d/1Nvm7HZlpO3lZ7uu5IT5RscxG5b5DJgma/view?usp=sharing">Download</a></button>
                 </div>
             </div>
         </div>

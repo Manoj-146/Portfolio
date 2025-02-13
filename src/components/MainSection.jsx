@@ -4,7 +4,7 @@ import { AiOutlineLinkedin, AiOutlineInstagram, AiOutlineGithub } from "react-ic
 
 const MainSection=()=>{
     return (
-        <div className="flex-col bg-gray-400 flex md:flex-row justify-around items-center p-5 py-12">
+        <div className="flex-col flex md:flex-row justify-around items-center p-5 py-12">
             <div className="w-1/2 flex flex-col justify-center align-center space-y-7 p-4">
                 <h1 className="text-6xl font-bold">Hello, <br />  I'm <span className="text-amber-600">MANOJ</span>
                     <p className= "text-3xl font-thin">I'm a software engineer based in Chennai.</p>
