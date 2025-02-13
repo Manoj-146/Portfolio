@@ -2,9 +2,9 @@ import Manoj from '../assets/Manoj.jpeg';
 
 const About=()=>{
     return(
-        <div id='About' className=" flex flex-row items-center justify-around p-2 bg-gray-700 text-white">
+        <div id='About' className="flex flex-row items-center justify-around p-2 bg-gray-700 text-white py-10">
             <div className='hidden md:block w-1/4 p-4'>
-                <img src={Manoj} alt="" />
+                <img src={Manoj} className='rounded-t-full' alt="" />
             </div>
             <div className="w-1/2 flex flex-col">
                 <h1 className="text-4xl font-bold text-center mb-7 pt-5">About</h1>

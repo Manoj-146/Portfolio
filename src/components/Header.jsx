@@ -3,7 +3,7 @@ import React,{useState} from 'react';
 function Header(){
     const [show,setShow]=useState(false);
     return(
-        <header className=" relative flex flex-row  justify-between items-center  bg-gray-700 text-white">
+        <header className=" p-5 relative w-full flex flex-row  justify-between items-center  bg-gray-400 text-black">
             <h1 className="text-2xl font-bold p-4">Portfolio</h1>
             <nav className="hidden md:flex space-x-4">
                 <ul className="flex flex-row space-x-10 p-4">
