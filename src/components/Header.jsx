@@ -7,7 +7,7 @@ function Header(){
             <h1 className="text-2xl font-bold p-4">Portfolio</h1>
             <nav className="hidden md:flex space-x-4">
                 <ul className="flex flex-row space-x-10 p-4">
-                    <li ><a className='hover:text-gray-400 text-lg' href="#/">Home</a></li>
+                    <li ><a className='hover:text-gray-400 text-lg' href="#Home">Home</a></li>
                     <li ><a className='hover:text-gray-400 text-lg ' href="#Project">Project</a></li>
                     <li ><a className='hover:text-gray-400 text-lg' href="#Resume">Resume</a></li>
                     <li ><a className='hover:text-gray-400 text-lg' href="#About">About</a></li>
@@ -16,7 +16,7 @@ function Header(){
             </nav>
             {show && <nav className="w-full md:hidden absolute bg-gray-700 top-16 text-center ">
                 <ul className="flex flex-col items-center justify-center w-full ">
-                    <li className="border-b-1 border-amber-50 w-full py-2 font-bold" ><a href="#/">Home</a></li>
+                    <li className="border-b-1 border-amber-50 w-full py-2 font-bold" ><a href="#Home">Home</a></li>
                     <li className="border-b-1 border-amber-50 w-full py-2" ><a href="#Project">Project</a></li>
                     <li className="border-b-1 border-amber-50 w-full py-2" ><a href="#Resume">Resume</a></li>
                     <li className="border-b-1 border-amber-50 w-full py-2" ><a href="#About">About</a></li>
