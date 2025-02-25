@@ -12,7 +12,7 @@ const Resume=()=>{
                     You can download my resume from here 
                 </p>
                 <div className='flex justify-center pt-5'>
-                    <button className='w-[150px] h-10  bg-indigo-500 rounded-lg  hover:border-2 border-indigo-700 '><a className='w-full h-full text-white' href="https://drive.google.com/file/d/1Nvm7HZlpO3lZ7uu5IT5RscxG5b5DJgma/view?usp=sharing">Download</a></button>
+                    <button className='w-[150px] h-10  bg-indigo-500 rounded-lg  hover:border-2 border-indigo-700 '><a className='w-full h-full text-white' href="https://drive.google.com/file/d/1b5MJxuk0eLDxyv9rLJA6uXtw7A6kFkzZ/view?usp=sharing">Download</a></button>
                 </div>
             </div>
         </div>
